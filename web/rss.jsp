@@ -39,11 +39,11 @@
 </head>
 <body >
 <div id="rsscontent">
-<%=request.getAttribute("rssInfo")
+<%=request.getAttribute("itemsInfo")
 %>
 </div>
 <div >
-    <%=request.getAttribute("rssInfo1")%>
+    <%=request.getAttribute("itemsInfo1")%>
     </div>
 <%--<s:property value="#request.rssInfo"></s:property>--%>
 </body>
