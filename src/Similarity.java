@@ -1,4 +1,3 @@
-package bean;
 
 import java.util.Dictionary;
 import java.util.Enumeration;
@@ -67,19 +66,24 @@ public class Similarity {
 
             double sqdoc1 = 0;
             double sqdoc2 = 0;
-            double  numerator = 0;
+            double numerator = 0;
             Iterator iter = hashmap.entrySet().iterator();
             while (iter.hasNext()) {
                 HashMap.Entry entry = (HashMap.Entry) iter.next();
                 int[] fq = (int[]) (int[]) entry.getValue();
-                numerator+= fq[0] * fq[1];
+                numerator += fq[0] * fq[1];
                 sqdoc1 += fq[0] * fq[0];
                 sqdoc2 += fq[1] * fq[1];
             }
-            return  numerator/ Math.sqrt(sqdoc1 * sqdoc2);
+            return numerator / Math.sqrt(sqdoc1 * sqdoc2);
 
-        } else throw new Exception();
+        }
+        /*else
+            throw new Exception();*/
+        return 0;
     }
+
+
 
 
 
