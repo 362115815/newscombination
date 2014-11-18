@@ -9,6 +9,7 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Struts 2-2.3.16.3" />
+          <element id="library" level="project" name="rsslib4j-0.2" />
         </element>
       </element>
     </root>

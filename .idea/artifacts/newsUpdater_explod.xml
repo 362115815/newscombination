@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="newsUpdater explod">
+    <output-path>$PROJECT_DIR$/out/artifacts/newsUpdater_explod</output-path>
+    <root id="root">
+      <element id="dir-copy" path="$PROJECT_DIR$/out" />
+    </root>
+  </artifact>
+</component>
