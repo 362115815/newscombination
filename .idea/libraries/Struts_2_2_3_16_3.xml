@@ -2,18 +2,17 @@
   <library name="Struts 2-2.3.16.3" type="struts2">
     <properties version="2.3.16.3" />
     <CLASSES>
-      <root url="jar://$APPLICATION_HOME_DIR$/plugins/struts2/lib/asm.jar!/" />
-      <root url="jar://$APPLICATION_HOME_DIR$/plugins/struts2/lib/asm-commons.jar!/" />
-      <root url="jar://$APPLICATION_HOME_DIR$/plugins/struts2/lib/asm-tree.jar!/" />
-      <root url="jar://$APPLICATION_HOME_DIR$/plugins/struts2/lib/commons-fileupload.jar!/" />
-      <root url="jar://$APPLICATION_HOME_DIR$/plugins/struts2/lib/ognl_2.jar!/" />
-      <root url="jar://$APPLICATION_HOME_DIR$/plugins/struts2/lib/commons-lang.jar!/" />
-      <root url="jar://$APPLICATION_HOME_DIR$/plugins/struts2/lib/commons-io.jar!/" />
-      <root url="jar://$APPLICATION_HOME_DIR$/plugins/struts2/lib/javassist.jar!/" />
-      <root url="jar://$APPLICATION_HOME_DIR$/plugins/struts2/lib/freemarker.jar!/" />
-      <root url="jar://$APPLICATION_HOME_DIR$/plugins/struts2/lib/xwork-core.jar!/" />
-      <root url="jar://$APPLICATION_HOME_DIR$/plugins/struts2/lib/struts2-core.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/rsslib4j-0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-fileupload.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-commons.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-tree.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ognl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xwork-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/freemarker.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts2-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -5,9 +5,12 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
-    <package name="default" namespace="/action" extends="struts-default">
-        <action name="rss" class="action.GetNews">
-            <result name="success">/rss.jsp</result>
+    <package name="default" extends="struts-default" >
+        <action name="getnews" class="GetNews">
+            <result name="success">/index.jsp</result>
         </action>
-    </package>
+        <action name="search" class="Search">
+            <result name="success">/index.jsp</result>
+        </action>
+            </package>
 </struts>
